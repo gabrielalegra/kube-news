@@ -24,8 +24,8 @@ jobs:
           context: ./src
           push: true
           tags: |
-            gabrielalegra\kube-news:latest
-            gabrielalegra\kube-news:${{github.run_number}}
+            gabrielalegra/kube-news:latest
+            gabrielalegra/kube-news:${{github.run_number}}
             
   CD:
     runs-on: ubuntu-latest
